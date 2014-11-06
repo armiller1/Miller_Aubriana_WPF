@@ -5,4 +5,6 @@
  11-6-2014
  */
 
+//Calculating how many stars there are in the galaxy (not actual)
+
 
