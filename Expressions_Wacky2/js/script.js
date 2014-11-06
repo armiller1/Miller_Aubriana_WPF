@@ -17,6 +17,8 @@ var answer = galaxy / miles * numStars;//Calculating answer
 
 alert("There are " + answer + " stars in the galaxy.");//Alert of answer
 
+console.log(answer);
+
 
 
 
