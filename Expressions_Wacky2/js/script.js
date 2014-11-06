@@ -7,4 +7,8 @@
 
 //Calculating how many stars there are in the galaxy (not actual)
 
+var numStars = 200;
+
+
+
 
