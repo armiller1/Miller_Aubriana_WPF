@@ -15,6 +15,10 @@ var galaxy = 100000;//How many miles are in the galaxy
 prompt("How many miles are in the galaxy?");//In this case it's 100,000
 var answer = galaxy / miles * numStars;//Calculating answer
 
+alert("There are " + answer + " stars in the galaxy.");//Alert of answer
+
+
+
 
 
 
