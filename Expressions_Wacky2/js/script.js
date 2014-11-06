@@ -12,6 +12,8 @@ prompt("How many stars are in 2000 miles of the galaxy?");//In this case it's 20
 var miles = 2000;//How many miles that contain 200 stars
 
 var galaxy = 100000;//How many miles are in the galaxy
+prompt("How many miles are in the galaxy?");//In this case it's 100,000
+
 
 
 
