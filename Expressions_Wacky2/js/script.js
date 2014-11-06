@@ -13,6 +13,9 @@ var miles = 2000;//How many miles that contain 200 stars
 
 var galaxy = 100000;//How many miles are in the galaxy
 prompt("How many miles are in the galaxy?");//In this case it's 100,000
+var answer = galaxy / miles * numStars;//Calculating answer
+
+
 
 
 
