@@ -11,4 +11,6 @@ var conVerse = alert("It's too cold, wear Converse!");
 var flipFlops = alert("It's nice and warm, you can wear flip flops!");
 var weather = prompt("What is the temperature right now in Fahrenheit?");
 
-
+if(weather <= 70){
+    
+}
