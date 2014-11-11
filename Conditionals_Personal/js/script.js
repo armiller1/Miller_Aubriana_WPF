@@ -8,5 +8,5 @@
 //What shoes should I wear today?
 
 var conVerse = alert("It's too cold, wear Converse!");
-
+var flipFlops = alert("It's nice and warm, you can wear flip flops!");
 
