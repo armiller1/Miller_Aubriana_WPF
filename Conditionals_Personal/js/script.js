@@ -6,3 +6,7 @@
  */
 
 //What shoes should I wear today?
+
+var conVerse = alert("It's too cold, wear Converse!");
+
+
