@@ -8,3 +8,8 @@
 //Website building package determination by pricing and client needs
 var siteType = prompt("Is this website personal, business, or community?");
 var clBudget = prompt("How much do you want to spend?");
+
+if(siteType === "personal" && clBudget <= 800 && clBudget > 499){
+    alert("I recommend the Bronze Package for $750");
+    console.log("I recommend the Bronze Package for $750");
+}
