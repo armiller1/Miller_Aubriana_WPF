@@ -10,11 +10,10 @@
 var weather = prompt("What is the temperature right now in Fahrenheit?");
 var sunny = prompt("Is it sunny?");
 
-
-if(weather <= 70 && sunny === "no"){
+if(weather <= 70 && sunny === "no" || weather <= 70 && sunny === "yes"){
     alert("It's too cold, you should wear Converse!");
     console.log("It's too cold, you should wear Converse!");
-}else if(weather >= 69 && sunny === "yes"){
+}else if(weather >= 69 && sunny === "yes" || weather >= 69 && sunny === "no"){
     alert("It's nice and warm, you can wear flip flops!");
     console.log("It's nice and warm, you can wear flip flops!")
 }
