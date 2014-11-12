@@ -12,5 +12,6 @@ var flipFlops = alert("It's nice and warm, you can wear flip flops!");
 var weather = prompt("What is the temperature right now in Fahrenheit?");
 
 if(weather <= 70){
+    alert(conVerse);
     
 }
