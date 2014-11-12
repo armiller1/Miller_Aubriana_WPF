@@ -13,5 +13,5 @@ var weather = prompt("What is the temperature right now in Fahrenheit?");
 
 if(weather <= 70){
     alert(conVerse);
-    
+    console.log(conVerse);
 }
