@@ -13,5 +13,9 @@ if(siteType === "personal" && clBudget <= 800 && clBudget > 499){
     alert("I recommend the Bronze Package for $750");
     console.log("I recommend the Bronze Package for $750");
 }if(siteType === "business" && clBudget <= 1100 && clBudget > 800){
-    alert("I recommend the Silver Package for $1000");
-    console.log("I recommend the Silver Package for $1000");
+    alert("I recommend the Silver Package for $1,000");
+    console.log("I recommend the Silver Package for $1,000");
+}if(siteType === "community" && clBudget <= 1800 && clBudget > 1100){
+    alert("I recommend the Gold Package for $1,700");
+    console.log("I recommend the Gold Package for $1,700");
+}
