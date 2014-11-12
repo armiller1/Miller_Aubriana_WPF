@@ -16,12 +16,15 @@ if(gender === "male" && age < 16){
     alert("You will be " + age * 6 +  " when you die.");
     console.log("You will be " + age * 6 +  " when you die.");
 }if(gender === "male" && age > 15 && age < 30){
-    alert("you will be " + age * 3 + " when you die.");
-    console.log("you will be " + age * 3 + " when you die.");
+    alert("You will be " + age * 3 + " when you die.");
+    console.log("You will be " + age * 3 + " when you die.");
 }if(gender === "female" && age > 15 && age < 30){
-    alert("you will be " + age * 4 + " when you die.");
-    console.log("you will be " + age * 4 + " when you die.");
+    alert("You will be " + age * 4 + " when you die.");
+    console.log("You will be " + age * 4 + " when you die.");
 }if(gender === "male" && age > 29 && age < 51 || gender === "female" && age > 29 && age < 51){
-    alert("you will be " + age * 2 + " when you die.");
-    console.log("you will be " + age * 2 + " when you die.");
+    alert("You will be " + age * 2 + " when you die.");
+    console.log("You will be " + age * 2 + " when you die.");
+}else{
+    alert("You will be " + age * 1.5 + " when you die.");
+    console.log("You will be " + age * 1.5 + " when you die.");
 }
