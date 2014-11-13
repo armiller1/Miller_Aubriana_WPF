@@ -21,6 +21,9 @@ if(siteType === "personal" && clBudget <= 800 && clBudget > 499){
 }if(siteType === "Personal" && clBudget > 1800 || siteType === "business" && clBudget > 1800 || siteType === "community" && clBudget > 1800){
     alert("I recommend the Gold Package for $1,700");
     console.log("I recommend the Gold Package for $1,700");
+}else if(siteType == 0 || clBudget == 0){
+    alert("You must enter an answer!");
+    console.log("You must enter an answer!");
 }else{
     alert("Sorry, we do not offer any packages that fit your budget!");
     console.log("Sorry, we do not offer any packages that fit your budget!");

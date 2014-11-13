@@ -24,6 +24,9 @@ if(gender === "male" && age < 16){
 }if(gender === "male" && age > 29 && age < 51 || gender === "female" && age > 29 && age < 51){
     alert("You will be " + age * 2 + " when you die.");
     console.log("You will be " + age * 2 + " when you die.");
+}else if(gender == 0 || age == ""){
+    alert("You must enter an answer!");
+    console.log("You must enter an answer!");
 }else{
     alert("You will be " + age * 1.5 + " when you die.");
     console.log("You will be " + age * 1.5 + " when you die.");
