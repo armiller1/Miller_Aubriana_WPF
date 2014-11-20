@@ -7,3 +7,7 @@
 
 //How many chicken pox did you have?
 
+var age = prompt("How old were you when you got chicken pox?");
+
+var pox1 = 10;
+var pox2 = 100;
