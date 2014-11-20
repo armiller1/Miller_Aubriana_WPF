@@ -15,3 +15,8 @@ var pox2 = 100;
 while(isNaN(age) || age===""){
     prompt("You must enter an age!")
 }
+
+
+var result = randomize(pox1,pox2);
+alert("You had " + result + " chicken pox.");
+console.log("You had " + result + " chicken pox.");
