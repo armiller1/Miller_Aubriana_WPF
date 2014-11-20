@@ -8,5 +8,5 @@
 //How many children will I have?
 
 var age = prompt("How old are you?");
-
+var kids1 = 1;
 
