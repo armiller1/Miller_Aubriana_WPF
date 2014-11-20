@@ -16,3 +16,5 @@ while(isNaN(age) || age===""){
 }
 
 var result = randomize(kids1,kids2);
+alert("You will have " + result + " children.");
+console.log("You will have " + result + " children.");
