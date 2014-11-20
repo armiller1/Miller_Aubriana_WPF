@@ -12,5 +12,7 @@ var numPages = prompt("How many pages are needed on this website?");
 var days1 = 14;
 var days2 = 90;
 
-
+while(siteType ==="" || siteType != "personal" && siteType != "business"){
+    prompt("Is the website personal or for a business?");
+    console.log("Is the website personal or for a business?");
 
