@@ -9,4 +9,4 @@
 
 var age = prompt("How old are you?");
 var kids1 = 1;
-
+var kids2 = 15;
