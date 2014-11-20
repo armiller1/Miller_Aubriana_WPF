@@ -19,3 +19,7 @@ while(siteType ==="" || siteType != "personal" && siteType != "business"){
     prompt("How many pages are needed on this website?");
     console.log("How many pages are needed on this website?");
 }
+
+var result = determine(days1,days2);
+alert("Your project will take approximately " + result +" days to complete!");
+console.log("Your project will take approximately " + result +" days to complete!");
