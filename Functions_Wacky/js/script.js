@@ -11,3 +11,7 @@ var age = prompt("How old were you when you got chicken pox?");
 
 var pox1 = 10;
 var pox2 = 100;
+
+while(isNaN(age) || age===""){
+    prompt("You must enter an age!")
+}
