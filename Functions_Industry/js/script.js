@@ -8,7 +8,7 @@
 //How long will it take to build the website?
 
 var siteType = prompt("Is the website personal or for a business?");
-
+var numPages = prompt("How many pages are needed on this website?");
 
 
 
