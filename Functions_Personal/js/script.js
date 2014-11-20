@@ -14,3 +14,5 @@ var kids2 = 15;
 while(isNaN(age) || age===""){
     prompt("You must enter an age!");
 }
+
+var result = randomize(kids1,kids2);
